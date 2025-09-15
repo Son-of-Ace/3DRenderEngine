@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Glad">
+      <UniqueIdentifier>{f3e675c3-6c83-443f-a932-94529d37ad87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GLFW">
+      <UniqueIdentifier>{f9899078-d497-46d7-b0f7-3cfcd99489e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ImGui">
+      <UniqueIdentifier>{580a08ca-5400-4900-9d78-428c57900189}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Mesh">
+      <UniqueIdentifier>{7af01b4b-7af9-4b8d-a29d-ae512503ba23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Obj">
+      <UniqueIdentifier>{1067b410-5720-418f-9b06-31ca58e5d6f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shader">
+      <UniqueIdentifier>{f402ce10-f5c6-4f86-8b12-93b37936baac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{d4d1553d-6ff2-4225-bb1a-69711f34a408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dependencies">
+      <UniqueIdentifier>{6bb660ff-81e7-48b3-8464-233a648e3152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Glad">
+      <UniqueIdentifier>{39cce61b-b00f-49e7-9148-5d6216715347}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GLFW">
+      <UniqueIdentifier>{d700694f-438f-4815-97ae-bc3350c7c543}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Mesh">
+      <UniqueIdentifier>{d03c271c-643a-49d6-b777-6ad22bad0f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Obj">
+      <UniqueIdentifier>{140a8328-40a8-4e65-96b3-13a3231af416}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{5c45927c-6b27-4bc9-be19-d78cd33d90ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shader">
+      <UniqueIdentifier>{bfac63bc-2ddf-4d9a-a527-7c7b02ab2055}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ImGui">
+      <UniqueIdentifier>{2ee9cf6b-6666-4c02-a5ca-3d7272aef106}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\imgui.cpp">
+      <Filter>Source Files\Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\imgui_demo.cpp">
+      <Filter>Source Files\Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\imgui_draw.cpp">
+      <Filter>Source Files\Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\backends\imgui_impl_glfw.cpp">
+      <Filter>Source Files\Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\backends\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\imgui_tables.cpp">
+      <Filter>Source Files\Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="Include\imgui_widgets.cpp">
+      <Filter>Source Files\Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\MyCppPrograms\OpenGLTools\glad\src\glad.c">
+      <Filter>Source Files\Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="GladSetup.cpp">
+      <Filter>Source Files\Glad</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFWSetup.cpp">
+      <Filter>Source Files\GLFW</Filter>
+    </ClCompile>
+    <ClCompile Include="CachedMeshLoader.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshSerializer.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshSetup.cpp">
+      <Filter>Source Files\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjFileDialog.cpp">
+      <Filter>Source Files\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjLoader.cpp">
+      <Filter>Source Files\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjPrefixType.cpp">
+      <Filter>Source Files\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="SizeCallback.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderSetup.cpp">
+      <Filter>Source Files\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuiSetup.cpp">
+      <Filter>Source Files\ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\MyCppPrograms\OpenGLTools\glfw-3.4.bin.WIN64\glfw-3.4.bin.WIN64\docs\html\window_guide.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLFWSetup.h">
+      <Filter>Header Files\GLFW</Filter>
+    </ClInclude>
+    <ClInclude Include="GladSetup.h">
+      <Filter>Header Files\Glad</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiSetup.h">
+      <Filter>Header Files\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="CachedMeshLoader.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshSerializer.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshSetup.h">
+      <Filter>Header Files\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjFileDialog.h">
+      <Filter>Header Files\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjLoader.h">
+      <Filter>Header Files\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjPrefixType.h">
+      <Filter>Header Files\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderSetup.h">
+      <Filter>Header Files\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderSource.h">
+      <Filter>Header Files\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="SizeCallback.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
