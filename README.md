@@ -15,3 +15,4 @@ To run the program, you will need to do these few things:
 
 1. Once your ran the program either through a built EXE or VisualStudio, you can hit the import model button and import any .obj file. I made a "TestModels" folder with a couple of models to get going.
 2. Just note that it will create a .json within the folder that a .obj file was loaded from to cache the mesh and speed up rendering next times.
+3. Feel free to delete the .json if you want to try it without again, it will make a new one.
