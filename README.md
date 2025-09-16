@@ -3,6 +3,7 @@ A 3D Rendering Engine made in OpenGL
 
 ------------------------------------------------ REQUIREMENTS -------------------------------------------------
 1. You need to have VisualStudio installed to run this program.
+2. Have the C++ Desktop Development package from VisualStudio installed.
 
 ---------------------------------------------------- GUIDE ----------------------------------------------------
 
